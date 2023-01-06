@@ -76,3 +76,41 @@ header{
     margin: 10px 0;
 }
 /* My Plan */
+.plan-title{
+    font-size: 45px;
+    margin: 130px 0;
+    text-align: center;
+
+}
+.plan-content{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+.develop-title{
+    font-size: 26px;
+    margin: 16px 0;
+}
+.develop-desc{
+    color: #757575;
+
+}
+.plan-img-sec>img{
+    width: 30%;
+}
+
+/* Hand Section */
+.hand-sec{
+    background-image: 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5% 5%;
+    margin: 50px 0;
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url("../images/watch.png");;
+}
+.hand-title{
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    padding-bottom: 20px;
+}
