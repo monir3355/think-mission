@@ -40,7 +40,7 @@ header{
 }
 /* Main Section */
 .main-section{
-    margin: 10% 10%;
+    margin: 10% 10% 5% 10%;
 }
 /* My Failure */
 .my-failure{
@@ -74,6 +74,47 @@ header{
     font-size: 16px;
     font-weight: 400;
     margin: 10px 0;
+}
+.failure-content > ul li>i{
+    color: rgb(55, 194, 55);
+}
+/* Team Member Section */
+.team-title{
+    font-size: 45px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.team-member{
+    margin: 130px 0;
+}
+.all-member{
+    display: flex;
+    gap: 30px;
+}
+.person-name{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.member-part{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.657);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(21, 21, 23, 0.52);
+}
+.member-part > img{
+    width: 30%;
+    border-radius: 50%;
+}
+.person-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.person-desc{
+    color: #757575;
+    font-size: 16px;
+    line-height: 26px;
 }
 /* My Plan */
 .plan-title{
@@ -112,4 +153,50 @@ header{
     line-height: 35px;
     color: #fff;
     padding-bottom: 20px;
+}
+
+/* footer Section */
+.footer{
+    background: #151414;
+    color: #fff;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-desc{
+    font-size: 16px;
+    color: #757575;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.footer-info{
+    line-height: 60px;
+    color: #757575;
+}
+.footer-icon >img{
+    margin-right: 26px;
+    width: 40px;
+}
+.footer-sun-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-subcribe>form >input{
+    padding: 20px 10px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer-btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
